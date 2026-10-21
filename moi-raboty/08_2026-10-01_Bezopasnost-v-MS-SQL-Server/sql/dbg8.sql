@@ -1,0 +1,28 @@
+USE MyDB;
+GO
+PRINT '--- ДО';
+SELECT OrderID, Total, Status FROM Orders WHERE OrderID=100;
+GO
+BEGIN TRAN;
+GO
+PRINT '--- TRANCOUNT после BEGIN TRAN';
+SELECT @@TRANCOUNT AS TranCount;
+GO
+EXECUTE AS USER = 'Writer';
+GO
+UPDATE Orders SET Total = 9999 WHERE OrderID=100;
+GO
+PRINT '--- TRANCOUNT после неудачного UPDATE';
+SELECT @@TRANCOUNT AS TranCount, SUSER_NAME() AS Login, USER_NAME() AS CurrentUser;
+GO
+REVERT;
+GO
+PRINT '--- после REVERT';
+SELECT @@TRANCOUNT AS TranCount, USER_NAME() AS CurrentUser;
+GO
+ROLLBACK;
+GO
+PRINT '--- ПОСЛЕ ROLLBACK';
+SELECT @@TRANCOUNT AS TranCount;
+SELECT OrderID, Total, Status FROM Orders WHERE OrderID=100;
+GO
