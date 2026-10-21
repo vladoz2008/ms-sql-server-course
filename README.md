@@ -6,7 +6,7 @@
 * **[`zadaniya/`](zadaniya/)** — задания и теория преподавателя (24 файла, 02.09.2026 – 16.10.2026)
 * **[`moi-raboty/`](moi-raboty/)** — мои выполненные работы: отчёты в `.docx` и SQL-скрипты проектов
 
-Все работы оценены на **5**, кроме №24 (ещё не сдана).
+Все сданные работы оценены на **5**.
 
 ---
 
@@ -37,7 +37,7 @@
 | 21 | 01.10 | Безопасность в MS SQL | [Работа на уроке 8.docx](<zadaniya/21_2026-10-01_Rabota na uroke 8.docx>) | [Безопасность в MS SQL Server](moi-raboty/08_2026-10-01_Bezopasnost-v-MS-SQL-Server) |
 | 22 | 01.10 | Безопасность в MS SQL | [SR.jpg](zadaniya/22_2026-10-01_SR.jpg) | — |
 | 23 | 02.10 | Безопасность в MS SQL | [SR.jpg](zadaniya/23_2026-10-02_SR.jpg) | — |
-| 24 | 16.10 | Аналитика запросов — MS SQL Profiler | [Аналитика БД.docx](<zadaniya/24_2026-10-16_Analitika BD.docx>) | не сдано |
+| 24 | 16.10 | Аналитика запросов — MS SQL Profiler | [Аналитика БД.docx](<zadaniya/24_2026-10-16_Analitika BD.docx>) | [Анализ запросов в SQL Server Profiler](moi-raboty/09_2026-10-16_Analitika-zaprosov-SQL-Profiler) |
 
 > Файлы `SR.jpg` в пунктах 13, 18, 20, 22, 23 идентичны (общий бланк самостоятельной работы),
 > как и `Практическая работа 1.pdf` в пунктах 2 и 4.
@@ -56,6 +56,7 @@
 | [`06_2026-09-23_Triggery-procedury-funkcii-EsportsDB`](moi-raboty/06_2026-09-23_Triggery-procedury-funkcii-EsportsDB) | EsportsDB: функции, процедуры, триггеры + тесты |
 | [`07_2026-09-24_PR3-CarSharingDB`](moi-raboty/07_2026-09-24_PR3-CarSharingDB) | CarSharingDB (каршеринг электрокаров): 8 объектов БД + тесты |
 | [`08_2026-10-01_Bezopasnost-v-MS-SQL-Server`](moi-raboty/08_2026-10-01_Bezopasnost-v-MS-SQL-Server) | Безопасность: логины, роли, схемы, права, шифрование — 8 задач |
+| [`09_2026-10-16_Analitika-zaprosov-SQL-Profiler`](moi-raboty/09_2026-10-16_Analitika-zaprosov-SQL-Profiler) | SQL Server Profiler: трассировка, анализ планов, блокировки, индексы и статистика |
 
 ### Как запускать SQL-скрипты
 
